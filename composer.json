@@ -1,0 +1,34 @@
+{
+    "name": "qualitysolutionweb/qcommerce-association",
+    "description": "Biblioteca para manipulacao e associacao de produtos",
+    "license": "property",
+
+    "require": {
+        "pimple/pimple": "^3.0"
+    },
+
+    "require-dev": {
+        "propel/propel1": "1.6.*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "QualityPress\\QCommerce\\Component\\Association\\": ""
+        }
+    },
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    },
+	
+	"minimum-stability": "dev",
+
+    "authors": [
+        {
+            "name": "Jorge Vahldick",
+            "email": "jorge@qualitypress.com.br"
+        }
+    ]
+}
